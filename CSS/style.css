@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+span,
+p,
+div,
+a,
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*================================================ Navbar CSS Start ==========================================================*/
+
+.customNavbar {
+
+    background-color: #1C1E53;
+
+
+
+}
+
+.nav__item {
+    margin-right: 27px;
+    color: #BBBBCB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+.nav__item:hover {
+    color: white;
+}
+
+.btn {
+    padding: 16px 48px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #dadde6f3;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+}
+
+.btn:hover {
+
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    color: #BBBBCB;
+
+}
+
+
+
+/*================================================ Navbar CSS End =============================================================*/
+
+
+/* ==============================================Work part CSS start========================================================== */
+#work_part {
+    padding: 96px 0px;
+    background-color: #F4F6FC;
+}
+
+.row {
+    color: #282938;
+}
+
+.heading {
+
+    color: var(--Dark-blue, #282938);
+    opacity: 0.7;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+
+
+
+}
+
+.title {
+
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin-top: 5px;
+
+
+}
+
+.text_part {
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 24px;
+    opacity: 0.7;
+
+
+}
+
+.icons {
+
+    width: 16px;
+    height: 16px;
+    margin-left: 600px;
+    display: flex;
+    column-gap: 27.8px;
+    margin-top: 32px;
+
+
+
+
+}
+
+
+
+
+
+
+/* ==============================================Work part CSS End========================================================== */
+
+/* ==============================================Design part CSS Start========================================================== */
+
+
+
+
+#design_part {
+    padding: 96px 0px;
+    background-color: white;
+}
